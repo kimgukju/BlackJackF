@@ -21,32 +21,6 @@ public class Print {
 		dealerScore = 0;
 	}
 	
-//public static void main(String[] args) {
-//	String[] blackCard = new String[14];
-//	blackCard[0] = "♠A";
-//	for(int i=1; i<11; i++) {
-//		blackCard[i] =  "♠"+(i);
-//		}
-//	blackCard[11] = "♠J";
-//	blackCard[12] = "♠Q";
-//	blackCard[13] = "♠K";
-//
-//	for(int i=0; i<blackCard.length; i++) {
-//		System.out.println(blackCard[i]);
-//	}
-//		
-//	}
-//	
-//
-//	
-//	public void cardColor() {
-//		String[] blackCard = new String[13];
-//		blackCard[0] = "♠1";
-//		for(int i=0; i<blackCard.length; i++) {
-//			blackCard[i] = "♠1"+i;
-//		}
-//	}
-
 	
 	/*
 	 *    ♠ 포함하면 검정색
