@@ -5,7 +5,7 @@ public class Print {
 	
 	/*
 	 *    ♠ 포함하면 검정색
-	 *    ♥ 포함하면 빨광색
+	 *    ♥ 포함하면 빨강색
 	 *    ♦ 포함하면 보라색
 	 *    ♣ 포함하면 초록색
 	 *    단, 10은 2자리수라 범위차지해서 따로 카드폼 만들어주셔서 또 따로 선언
@@ -46,12 +46,7 @@ public class Print {
 		System.out.print("            " + "┌───┐ ".repeat(BlackjackGame.dealerHand.size()) + "\n");
 		System.out.print("딜러 손패 : ");
 		for (int i = 0; i < BlackjackGame.dealerHand.size(); i++) {
-//			if (BlackjackGame.dealerHand.get(i).equals("♠10") || BlackjackGame.dealerHand.get(i).equals("♥10") ||BlackjackGame.dealerHand.get(i).equals("♦10")
-//					|| BlackjackGame.dealerHand.get(i).equals("♣10")) {
-//				System.out.print("│" + BlackjackGame.dealerHand.get(i) + "│ ");
-//			} else {
-//				System.out.print("│ " + BlackjackGame.dealerHand.get(i) + "│ ");
-//			}
+
 			if (BlackjackGame.dealerHand.get(i).equals("♠10")) {
 				System.out.print("│" + AnsiConsol.BLACK(BlackjackGame.dealerHand.get(i)) + "│ ");
 			} else if(BlackjackGame.dealerHand.get(i).equals("♥10")) {
@@ -81,12 +76,7 @@ public class Print {
 	public void printDealerHand() {
 		System.out.print("            " + "┌───┐ ".repeat(BlackjackGame.dealerHand.size()) + "\n");
 		System.out.print("딜러 손패 : ");
-//		if (BlackjackGame.dealerHand.get(0).equals("♠10") || BlackjackGame.dealerHand.get(0).equals("♥10") || BlackjackGame.dealerHand.get(0).equals("♦10")
-//				|| BlackjackGame.dealerHand.get(0).equals("♣10")) {
-//			System.out.print("│" + BlackjackGame.dealerHand.get(0) + "│ ");
-//		} else {
-//			System.out.print("│ " + BlackjackGame.dealerHand.get(0) + "│ ");
-//		}
+
 		if (BlackjackGame.dealerHand.get(0).equals("♠10")) {
 			System.out.print("│" + AnsiConsol.BLACK(BlackjackGame.dealerHand.get(0)) + "│ ");
 		} else if(BlackjackGame.dealerHand.get(0).equals("♥10")) {
