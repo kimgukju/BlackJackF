@@ -1,30 +1,11 @@
 package blackjackFF;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Print {
-	//BlackjackGame game;
-	List<String> playerHand;
-	List<String> dealerHand;
-	int playerScore;
-	int dealerScore;
-	
-	public Print() {
-		// TODO Auto-generated constructor stub
-		//game = new BlackjackGame();  
-		// 이런식으로  bjgame,print 클래스에 서로 선언해서 써버리면 StackOverflowError 남 
-		// 그래서 bjgame 에 public static 으로 바꾸고 여기서 bjgame.~~ 식으로 호출해서 프린트하게함 
-		playerHand = new ArrayList<String>();
-		dealerHand = new ArrayList<String>();
-		playerScore = 0;
-		dealerScore = 0;
-	}
-	
-	
+
 	/*
 	 *    ♠ 포함하면 검정색
-	 *    ♥ 포함하면 빨광색
+	 *    ♥ 포함하면 빨강색
 	 *    ♦ 포함하면 보라색
 	 *    ♣ 포함하면 초록색
 	 *    단, 10은 2자리수라 범위차지해서 따로 카드폼 만들어주셔서 또 따로 선언

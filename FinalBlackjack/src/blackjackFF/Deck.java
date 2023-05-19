@@ -37,13 +37,6 @@ public class Deck {
 
     
 
-//    public Card drawCard() {
-//        if (cards.isEmpty()) {
-//            initializeDeck();
-//            shuffleDeck();
-//        }
-//
-//        return cards.remove(cards.size() - 1);
-//    }
+
 }
 
