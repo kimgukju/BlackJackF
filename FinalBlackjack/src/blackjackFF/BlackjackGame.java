@@ -96,11 +96,11 @@ public class BlackjackGame {
 					input = scanner.nextLine();
 					System.out.println();
 					if (input.equalsIgnoreCase("Y")) {
-						playerCoin = 0;
 						break;
 					} else if (input.equalsIgnoreCase("N")) {
-
+						
 						System.out.print("게임을 재시작 합니다");
+						break;
 					}
 				}
 			}
@@ -131,9 +131,10 @@ public class BlackjackGame {
 					input = scanner.nextLine();
 					System.out.println();
 					if (input.equalsIgnoreCase("Y")) {
-						playerCoin = 0;
+						tokenOver = true;
 						break;
 					} else if (input.equalsIgnoreCase("N")) {
+						
 						System.out.println("게임을 재시작 합니다");
 						break;
 					}

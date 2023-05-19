@@ -3,9 +3,16 @@ package blackjackFF;
 
 public class Print {
 
+	public Print() {
+		// TODO Auto-generated constructor stub
+		// 이런식으로  bjgame,print 클래스에 서로 선언해서 써버리면 StackOverflowError 남 
+
+	}
+	
+	
 	/*
 	 *    ♠ 포함하면 검정색
-	 *    ♥ 포함하면 빨강색
+	 *    ♥ 포함하면 빨광색
 	 *    ♦ 포함하면 보라색
 	 *    ♣ 포함하면 초록색
 	 *    단, 10은 2자리수라 범위차지해서 따로 카드폼 만들어주셔서 또 따로 선언
