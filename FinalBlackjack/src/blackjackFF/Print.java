@@ -2,13 +2,6 @@ package blackjackFF;
 
 
 public class Print {
-
-	public Print() {
-		// TODO Auto-generated constructor stub
-		// 이런식으로  bjgame,print 클래스에 서로 선언해서 써버리면 StackOverflowError 남 
-
-	}
-	
 	
 	/*
 	 *    ♠ 포함하면 검정색
