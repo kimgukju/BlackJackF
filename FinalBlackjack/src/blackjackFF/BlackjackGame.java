@@ -100,7 +100,6 @@ public class BlackjackGame {
 					} else if (input.equalsIgnoreCase("N")) {
 						
 						System.out.print("게임을 재시작 합니다");
-						break;
 					}
 				}
 			}
@@ -132,11 +131,11 @@ public class BlackjackGame {
 					System.out.println();
 					if (input.equalsIgnoreCase("Y")) {
 						tokenOver = true;
+						System.out.println(AnsiConsol.RED("GAME OVER"));
 						break;
 					} else if (input.equalsIgnoreCase("N")) {
 						
 						System.out.println("게임을 재시작 합니다");
-						break;
 					}
 				}
 			}
